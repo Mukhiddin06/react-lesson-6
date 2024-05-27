@@ -1,0 +1,83 @@
+/* Container and Wrapper Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cars-wrapper {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Button Styles */
+.btn-wrp {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.btn-cars {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-cars:hover {
+    background-color: #0056b3;
+}
+
+.btn-edit, .btn-trash {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: color 0.3s;
+}
+
+.btn-edit:hover {
+    color: #28a745;
+}
+
+.btn-trash:hover {
+    color: #dc3545;
+}
+
+/* Input Styles */
+.inp-wrp {
+    margin-bottom: 20px;
+}
+
+.inp-cars {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Table Styles */
+.cars-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cars-table th, .cars-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.cars-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.cars-table tr:hover {
+    background-color: #f1f1f1;
+}
