@@ -1,4 +1,4 @@
-
+/* Modal CSS */
 .modal-title {
     font-size: 24px;
     font-weight: bold;
@@ -55,4 +55,26 @@
 
 .modal-btn2:hover {
     background-color: #0056b3;
+}
+
+/* Additional CSS for Modal positioning and size */
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensuring it is vertically centered */
+}
+
+.modal-content {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
