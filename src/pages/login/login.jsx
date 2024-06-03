@@ -24,6 +24,7 @@ const Login = () => {
     return (
         <>
         <div className="container">
+            <div className="card-wrapper">
             <div className="card">
                 <div className="card-header">
                     <h1 className="card-title">Login</h1>
@@ -50,6 +51,7 @@ const Login = () => {
                     <button type="submit" form="submit">login</button>
                 </div>
             </div>
+            </div> 
         </div>
         </>
     );

@@ -5,10 +5,22 @@ const Sidebar =() =>{
         <>
         <div className="sidebar">
         <NavLink to="/main" className="navlink">
-            Cars
+            Users
         </NavLink>
-        <NavLink to="/main/brand" className="navlink">
-            Brand
+        <NavLink to="/main/todos" className="navlink">
+            Todos
+        </NavLink>
+        <NavLink to="/main/albums" className="navlink">
+            Albums
+        </NavLink>
+        <NavLink to="/main/posts" className="navlink">
+            Posts
+        </NavLink>
+        <NavLink to="/main/comments" className="navlink">
+            Comments
+        </NavLink>
+        <NavLink to="/main/photos" className="navlink">
+            Photos
         </NavLink>
         </div>
         </>
