@@ -13,6 +13,7 @@ import Albums from "../pages/albums/albums"
 import Posts from "../pages/posts/posts"
 import Comments from "../pages/comments/comments"
 import Photos from "../pages/photos/photos"
+import Cars from "../pages/cars/cars"
  const Index = () => {
     const router = createBrowserRouter(
         createRoutesFromElements(
@@ -20,6 +21,7 @@ import Photos from "../pages/photos/photos"
                 <Route index element={<Login />}/>
                 <Route path="main/*" element={<Main/>}>
                     <Route index element={<Users />}/>
+                    <Route path="cars" element={<Cars />}/>
                     <Route path="todos" element={<Todos />}/>
                     <Route path="albums" element={<Albums />}/>
                     <Route path="posts" element={<Posts />}/>

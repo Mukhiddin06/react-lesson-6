@@ -5,9 +5,35 @@
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.table-name {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
 .table-wrapper {
     overflow-x: auto;
 }
+.select-wrapper {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.table-select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.table-select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
 .table table {
     width: 100%;
 }
@@ -34,4 +60,31 @@
 }
 .table tbody tr:hover {
     background-color: #f1f1f1;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-change {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 0 10px;
+}
+
+.btn-change:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.text-btn {
+    font-size: 1.2rem;
+    font-weight: bold;
 }
